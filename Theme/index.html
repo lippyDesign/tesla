@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="fake tesla website">
+    <meta name="author" content="V. Lipunov">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Tesla Motors</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="icon" href="./assets/img/tesla-logo.png" type="image/gif" sizes="16x16">
+
+    <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/Chart.js"></script>
+	<script src="assets/js/modernizr.custom.js"></script>
+	
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+	<!-- ========== FIXED NAVBAR ========== -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="mainNav">
+      <div class="container">
+        <div class="navbar-header">
+          <button id="hamburger" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="./assets/img/tesla-logo.png" class="tesla-logo" alt="tesla logo"> Tesla Motors</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./model-s.html">Model S</a></li>
+            <li><a href="./model-x.html">Model X</a></li>
+            <li><a href="./model-3.html">Model 3</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+	<!-- ========== HEADER SECTION ========== -->
+	<header>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner img-responsive" role="listbox">
+			<div class="item active">
+				<a href="./model-s.html">
+					<img src="./assets/img/model-s.jpg" alt="model S">
+					<h1><span class="btn btn-success btn-lg">Model S</span></h1>
+				</a>
+			</div>
+			<div class="item">
+				<a href="./model-x.html">
+					<img src="./assets/img/model-x.jpeg" alt="model X">
+					<h1 id="colorWhite"><span class="btn btn-success btn-lg">Model X</span></h1>
+				</a>
+			</div>
+			<div class="item">
+				<a href="./model-3.html">
+					<img src="./assets/img/model-3.jpeg" alt="model 3">
+					<h1 id="colorWhite"><span class="btn btn-success btn-lg">Model 3</span></h1>
+				</a>
+			</div>
+		</div>
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		</div>
+	</header>
+	
+	
+	<!-- ========== WHITE SECTION ========== -->
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h3>WELCOME TO <bold>TESLA</bold>, <bold>AN ELECTRIC CAR COMPANY</bold> THAT REDIFINES THE WORLD <bold>ONE VEHICLE AT A TIME</bold>. <br/>
+					<bold>IDEAL FOR</bold> EVERY ASPECT OF LIFE.
+				</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
+	
+	<!-- ========== LOCATIONS - GREY SECTION ========== -->
+	<section id="services" name="services"></section>
+	<div id="g">
+		<div class="container">
+			<div class="row">
+				<h3>OUR LOCATIONS</h3>
+				<br>
+				<br>
+				<div class="col-lg-3 col-md-6">
+					<img src="assets/img/s1.png">
+					<h4>London</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<img src="assets/img/s2.png">
+					<h4>Berlin</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<img src="assets/img/s3.png">
+					<h4>Paris</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<img src="assets/img/s4.png">
+					<h4>Tokyo</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /g -->
+	
+	<!-- ========== CHARTS - DARK GREY SECTION ========== -->
+	<div id="dg">
+		<div class="container">
+			<div class="row">
+				<h3>OUR BATTERY PACKS</h3>
+				<br>
+				<br>
+				<div class="col-sm-4">
+					<canvas id="javascript" height="130" width="130"></canvas>
+					<br>
+					<h4>60KWH</h4>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 75,
+									color:"#f85c37"
+								},
+								{
+									value : 25,
+									color : "#ecf0f1"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+					</script>
+
+				</div>
+				<div class="col-sm-4">
+					<canvas id="bootstrap" height="130" width="130"></canvas>
+					<br>
+					<h4>75KWH</h4>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 85,
+									color:"#f85c37"
+								},
+								{
+									value : 15,
+									color : "#ecf0f1"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-sm-4">
+					<canvas id="wordpress" height="130" width="130"></canvas>
+					<br>
+					<h4>100KWH</h4>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 95,
+									color:"#f85c37"
+								},
+								{
+									value : 5,
+									color : "#ecf0f1"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				
+			</div>	
+		</div><!-- /container -->
+	</div><!-- /dg -->
+	
+	<!-- ========== UNIQUE OPTIONS ========== -->
+	<section id="portfolio" name="portfolio"></section>
+	<div id="portfoliowrap">
+		<div class="container">
+			<div class="row text-center">
+				<h3>UNIQUE OPTIONS</h3>
+				<br>
+				<br>
+				<div class="col-md-4 port-space">
+					<a href="item.html"><img class="optionsImage img-rounded img-thumbnail" src="assets/img/adoptive-lights.jpg"></a>
+					<a id="colorWhite" href="#">Adoptive Lights</a>
+				</div>
+				<div class="col-md-4 port-space">
+					<a href="item.html"><img class="optionsImage img-rounded img-thumbnail" src="assets/img/bio-defence.png"></a>
+					<a id="colorWhite" href="#">BioDefense</a>
+				</div>
+				<div class="col-md-4 port-space">
+					<a href="item.html"><img class="optionsImage img-rounded img-thumbnail" src="assets/img/auto-pilot.jpg"></a>
+					<a id="colorWhite" href="#">Autopilot</a>
+				</div>				
+			</div>	
+		</div><!-- /container -->
+	</div><!-- /portfoliowrap -->
+	
+	<!-- ========== WHITE SECTION ========== -->
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h3>WE WORK HARD TO DELIVER A <bold>HIGH QUALITY SERVICE</bold>. OUR AIM IS YOUR COMPLETE <bold>SATISFACTION</bold>.
+				</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
+	
+	<!-- ========== ABOUT - GREY SECTION ========== -->
+	<section id="about" name="about"></section>
+	<div id="g">
+		<div class="container">
+			<div class="row">
+				<h3>ABOUT US</h3>
+				<br>
+				<br>
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.</p>
+				<br>
+				<br>
+				</div>
+				<div class="col-lg-2"></div>
+				<div class="col-lg-4 team">
+					<img class="img-circle" src="assets/img/model-s-small.png" height="90" width="90">
+					<h4>Model S</h4>
+					<h5><i>From $65,000</i></h5>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p>
+						<a href="./model-s.html">More Info</a>
+					</p>
+				</div>
+
+				<div class="col-lg-4 team">
+					<img class="img-circle" src="assets/img/model-x-small.jpg" height="90" width="90">
+					<h4>Model X</h4>
+					<h5><i>From $75,000</i></h5>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p>
+						<a href="./model-x.html">More Info</a>
+
+					</p>
+				</div>
+
+				<div class="col-lg-4 team">
+					<img class="img-circle" src="assets/img/model-3-small.jpg" height="90" width="90">
+					<h4>Model 3</h4>
+					<h5><i>From $35,000</i></h5>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p>
+						<a href="./model-3.html">More Info</a>
+					</p>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /g -->
+	
+	<!-- ========== FOOTER SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+					<h3><b>CONTACT US</b></h3>
+					<br>
+					<form class="col-xs-12 col-lg-6">
+						<div class="form-group">
+							<label for="name">Name:</label>
+							<input type="text" class="form-control" id="usr">
+						</div>
+						<div class="form-group">
+							<label for="email">Email:</label>
+							<input type="text" class="form-control" id="usr">
+						</div>
+						<div class="form-group">
+							<label for="message">Message:</label>
+							<textarea class="form-control" rows="5" id="comment"></textarea>
+						</div>
+					</form>
+					<div class="col-lg-4">
+						<h3><b>We Are Social</b></h3>
+						<p>
+							<a href="index.html#"><i class="icon-facebook"></i></a>
+							<a href="index.html#"><i class="icon-twitter"></i></a>
+							<a href="index.html#"><i class="icon-envelope"></i></a>
+						</p>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /f -->
+	
+	<div id="c">
+		<div class="container">
+			<p>Created by <a href="/">V. Lipunov</a></p>
+		</div>
+	</div>
+	
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
